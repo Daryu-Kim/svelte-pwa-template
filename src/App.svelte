@@ -1,6 +1,6 @@
 <script lang="ts">
     import HomePage from "./pages/Home.svelte";
-    import AboutPage from "./pages/About.svelte";
+    import AboutPage from "./pages/About/index.svelte";
     import Router from "svelte-spa-router";
     import NotFound from "./pages/NotFound.svelte";
 
@@ -15,6 +15,4 @@
     <Router {routes} />
 </main>
 
-<style lang="scss">
-
-</style>
+<style></style>
